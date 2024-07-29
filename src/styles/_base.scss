@@ -1,0 +1,59 @@
+@use 'fonts';
+
+$colors-elevation1: #292d39;
+$colors-elevation2: #181c20;
+$colors-elevation3: #373c4b;
+
+$colors-accent1: #0066dc;
+$colors-accent2: #007bff;
+$colors-accent3: #3c93ff;
+
+$colors-highlight1: #535760;
+$colors-highlight2: #8c92a4;
+$colors-highlight3: #fefefe;
+
+$colors-vivid1: #ffcc00;
+$colors-folderWidgetColor: var(--leva-colors-highlight2);
+$colors-folderTextColor: var(--leva-colors-highlight3);
+$colors-toolTipBackground: var(--leva-colors-highlight3);
+$colors-toolTipText: var(--leva-colors-elevation2);
+
+$radii-xs: 2px;
+$radii-sm: 3px;
+$radii-lg: 10px;
+$space-xs: 3px;
+$space-sm: 6px;
+$space-md: 10px;
+$space-rowGap: 7px;
+$space-colGap: 7px;
+$fonts-mono: ui-monospace, SFMono-Regular, Menlo, 'Roboto Mono', monospace;
+$fonts-sans: system-ui, sans-serif;
+$fontSizes-root: 11px;
+$fontSizes-toolTip: var(--leva-fontSizes-root);
+$sizes-rootWidth: 280px;
+$sizes-controlWidth: 160px;
+$sizes-numberInputMinWidth: 38px;
+$sizes-scrubberWidth: 8px;
+$sizes-scrubberHeight: 16px;
+$sizes-rowHeight: 24px;
+$sizes-folderTitleHeight: 20px;
+$sizes-checkboxSize: 16px;
+$sizes-joystickWidth: 100px;
+$sizes-joystickHeight: 100px;
+$sizes-colorPickerWidth: var(--leva-sizes-controlWidth);
+$sizes-colorPickerHeight: 100px;
+$sizes-imagePreviewWidth: var(--leva-sizes-controlWidth);
+$sizes-imagePreviewHeight: 100px;
+$sizes-monitorHeight: 60px;
+$sizes-titleBarHeight: 39px;
+$shadows-level1: 0 0 9px 0 #00000088;
+$shadows-level2: 0 4px 14px #00000033;
+$borderWidths-root: 0px;
+$borderWidths-input: 1px;
+$borderWidths-focus: 1px;
+$borderWidths-hover: 1px;
+$borderWidths-active: 1px;
+$borderWidths-folder: 1px;
+$fontWeights-label: normal;
+$fontWeights-folder: normal;
+$fontWeights-button: normal;

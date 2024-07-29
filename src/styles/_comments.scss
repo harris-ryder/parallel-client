@@ -1,0 +1,146 @@
+@use 'base';
+
+.comments-header {
+  padding: 8px;
+  padding-top: 2px;
+  text-align: left;
+  background: base.$colors-elevation2;
+  position: relative;
+
+}
+
+.comments {
+  flex: 1 1 0;
+  overflow-y: scroll;
+  padding: 8px;
+  background: base.$colors-elevation2;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+
+
+
+.create-btn {
+  border: 2px solid base.$colors-accent2;
+  background-color: base.$colors-accent2;
+  border-radius: 8px;
+  padding: 4px;
+  margin: 8px;
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+
+
+.comment-form {
+
+  margin: 8px;
+
+  .paint-btn {
+
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+    border: 2px solid base.$colors-elevation3;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-area {
+    display: flex;
+    gap: 8px;
+  }
+
+  .cancel-btn {
+    flex: 1 1 0;
+    border: 2px solid base.$colors-elevation3;
+    border-radius: 8px;
+  }
+
+  .submit-btn {
+    flex: 1 1 0;
+    border: 2px solid base.$colors-elevation3;
+    border-radius: 8px;
+  }
+}
+
+
+
+
+
+#comment-input-text {
+  flex: 1 1 0;
+  display: block;
+  padding: 8px;
+  border-radius: 8px;
+  box-sizing: 'border-box';
+  overflow: 'hidden';
+  resize: none;
+  border: none;
+  color: base.$colors-highlight2;
+  background: base.$colors-elevation3;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+
+
+
+
+// Comment
+
+.comment {
+  margin-top: 8px;
+  width: 100%;
+  color: base.$colors-highlight2;
+  background-color: base.$colors-elevation3;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 8px;
+}
+
+.profile-pic {
+
+  width: 28px;
+  height: 28px;
+  border-radius: 1000px;
+  border: 2px solid base.$colors-highlight2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-image: url('profile.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.comment-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comment-description {
+  text-align: left;
+  word-wrap: break-word;
+  /* Break words that are too long to fit */
+  overflow-wrap: break-word;
+  /* Alternative for word-wrap */
+  word-break: break-word;
+  /* Ensure long words break correctly */
+  white-space: normal;
+  /* Allow text to wrap to the next line */
+}

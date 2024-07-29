@@ -1,0 +1,41 @@
+@use 'base';
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  pointer-events: auto;
+  padding: 12px 12px;
+  border-radius: base.$radii-lg;
+  background-color: base.$colors-elevation1;
+  border: 1px solid base.$colors-elevation2;
+  color: base.$colors-highlight1;
+  box-shadow: base.$shadows-level1;
+
+  .upload-btn {
+
+    font-size: 16px;
+    color: base.$colors-highlight3;
+    border: base.$borderWidths-hover solid base.$colors-accent1;
+    border-radius: base.$radii-sm;
+    padding: 8px 28px;
+    background-color: base.$colors-accent1;
+
+    &:hover {
+      border: base.$borderWidths-hover solid base.$colors-accent3;
+    }
+
+  }
+
+  a {
+    text-decoration: underline;
+
+    &:hover {
+      color: base.$colors-highlight3;
+    }
+
+  }
+
+}

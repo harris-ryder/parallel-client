@@ -1,0 +1,22 @@
+@use 'base';
+
+
+.editor {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  border-radius: base.$radii-lg;
+  background-color: base.$colors-elevation1;
+  z-index: 10;
+
+  border: 1px solid base.$colors-elevation2;
+
+  box-shadow: base.$shadows-level1;
+
+  width: 300px;
+  padding: 4px 0px;
+
+}

@@ -1,0 +1,22 @@
+@use 'base';
+
+.share-bar {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+
+}
+
+.share-btn {
+  justify-self: right;
+  background-color: base.$colors-accent2;
+  color: base.$colors-highlight3;
+  padding: 4px 12px;
+  border-radius: 4px;
+  border: base.$borderWidths-hover solid base.$colors-accent2;
+
+  &:hover {
+    border: base.$borderWidths-hover solid base.$colors-accent3;
+  }
+
+}
